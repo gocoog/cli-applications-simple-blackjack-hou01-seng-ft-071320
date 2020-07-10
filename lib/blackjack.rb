@@ -40,7 +40,7 @@ def hit?(card_total)
   prompt_user
   get_user_input
   if get_user_input == 's'
-    break
+    return
   elsif get_user_input == 'h'
     initial_round + deal_card
   else
