@@ -46,9 +46,11 @@ def hit?(card_total)
       total = card_total + deal_card
       return total
     end
+    invalid_command
+    prompt_user
   end
-  invalid_command
-  return
+
+  
 end
 
 def invalid_command
