@@ -20,7 +20,7 @@ end
 
 def get_user_input(k)
   # code #get_user_input here
-  gets k
+  gets(k)
 end
 
 def end_game(card_total)
