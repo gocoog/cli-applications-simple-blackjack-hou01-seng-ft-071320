@@ -42,12 +42,13 @@ def hit?(card_total)
   while true
     if input == 's'
       return card_total
-    else
+    elsif
       total = card_total + deal_card
       return total
+    else
+      invalid_command
+      prompt_user
     end
-    invalid_command
-    prompt_user
   end
 
   
